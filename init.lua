@@ -44,7 +44,7 @@ vim.o.splitright = true
 -- editing
 vim.o.mouse = ''
 vim.o.showmatch = true
-vim.o.clipboard = 'unnamed,unnamedplus'
+vim.o.clipboard = 'unnamedplus'
 vim.o.undofile = true
 vim.o.undodir = vim.env.HOME .. '/.vim/undodir'
 vim.o.backspace = 'indent,eol,start'
